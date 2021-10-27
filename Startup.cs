@@ -39,13 +39,6 @@ namespace ETicaret.WebUI
 
             app.UseStaticFiles();
 
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-                    Path.Combine(Directory.GetCurrentDirectory(), "node_modules")),
-                RequestPath = "/node_modules"
-            });
-
             app.UseRouting();
 
             app.UseAuthorization();

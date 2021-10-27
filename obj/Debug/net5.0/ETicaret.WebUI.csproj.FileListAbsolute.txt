@@ -47,3 +47,10 @@ C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicare
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\ETicaret.WebUI.pdb
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\ETicaret.WebUI.genruntimeconfig.cache
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\ETicaret.WebUI.csproj.CopyComplete
+C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\bin\Debug\net5.0\package.json
+C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\Categories\Default.cshtml.g.cs
+C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_categories.cshtml.g.cs
+C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_header.cshtml.g.cs
+C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_navbar.cshtml.g.cs
+C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_noproduct.cshtml.g.cs
+C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_product.cshtml.g.cs
