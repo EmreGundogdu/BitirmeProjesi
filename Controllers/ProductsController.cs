@@ -20,12 +20,17 @@ namespace ETicaret.WebUI.Controllers
             
             return View(product);
         }
-        public IActionResult list()
+        public IActionResult list(int? id)
         {
+            var products = ProductRepository.Products;
+            if (id!=null)
+            {
+                products = products.Where(x => x.CategoryId == id).ToList();
+            }
 
             var productViewModel = new ProductViewModel()
             {
-                Products = ProductRepository.Products
+                Products = products
             };
 
             return View(productViewModel);

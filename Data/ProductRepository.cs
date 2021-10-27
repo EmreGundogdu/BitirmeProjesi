@@ -14,10 +14,13 @@ namespace ETicaret.WebUI.Data
             _products = new List<Product>
             {
 
-                new Product {ProductId=1, Name="IPhone 11",Price=8000,Description="çok iyi telefon",IsApproved=true,ImageUrl="iphone11.jpg"},
-                new Product {ProductId=2,Name="IPhone 12",Price=10000,Description="çok iyi telefon",IsApproved=true,ImageUrl="iphone12.jpg"},
-                new Product {ProductId=3,Name="IPhone 7",Price=4000,Description="iyi telefon",IsApproved=true,ImageUrl="iphone7.jpg"},
-                new Product {ProductId=4,Name="IPhone X",Price=6000,Description="iyi telefon",IsApproved=true,ImageUrl="iphoneX.jpg"}
+                new Product {ProductId=1, Name="IPhone 11",Price=8000,Description="çok iyi telefon",IsApproved=true,ImageUrl="iphone11.jpg",CategoryId=1},
+                new Product {ProductId=2,Name="IPhone 12",Price=10000,Description="çok iyi telefon",IsApproved=true,ImageUrl="iphone12.jpg",CategoryId=1},
+                new Product {ProductId=3,Name="IPhone 7",Price=4000,Description="iyi telefon",IsApproved=true,ImageUrl="iphone7.jpg",CategoryId=1},
+                new Product {ProductId=4,Name="IPhone X",Price=6000,Description="iyi telefon",IsApproved=true,ImageUrl="iphoneX.jpg",CategoryId=1},
+                new Product {ProductId=5,Name="Asus Laptop",Price=9000,Description="İyi Bir Laptop",IsApproved=true,ImageUrl="asus.jpg",CategoryId=2},
+                new Product {ProductId=5,Name="MSI Laptop",Price=14000,Description="Pahalı Bir Laptop",IsApproved=true,ImageUrl="msi.jpg",CategoryId=2},
+                new Product {ProductId=5,Name="Dell Laptop",Price=6000,Description="Ucuz Bir Laptop",IsApproved=true,ImageUrl="dell.jpg",CategoryId=2},
             };
         }
         public static List<Product> Products
