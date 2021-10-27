@@ -33,13 +33,7 @@ namespace ETicaret.WebUI.Controllers
 
         public IActionResult Details(int id)
         {
-            var product = new Product();
-
-            product.Name = "samsung s6";
-            product.Price = 3000;
-            product.Description = "iyi telefon";
-
-            return View(product);
+            return View(ProductRepository.GetProductById(id));
         }
     }
 }
