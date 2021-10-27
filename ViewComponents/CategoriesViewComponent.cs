@@ -1,4 +1,5 @@
-﻿using ETicaret.WebUI.Models;
+﻿using ETicaret.WebUI.Data;
+using ETicaret.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,14 +12,8 @@ namespace ETicaret.WebUI.ViewComponents
     {
         public IViewComponentResult Invoke()
         {
-            var categories = new List<Category>()
-            {
-                new Category {Name="Telefon",Description="Telefon Kategorisi"},
-                new Category {Name="Bilgisayar",Description="Bilgisayar Kategorisi"},
-                new Category {Name="Elektronik",Description="Elektronik Kategorisi"}
-            };
-
-            return View(categories);
+            
+            return View(CategoryRepository.Categories);
         }
     }
 }
