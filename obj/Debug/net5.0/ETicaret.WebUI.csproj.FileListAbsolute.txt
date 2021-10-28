@@ -9,7 +9,6 @@ C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicare
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\bin\Debug\net5.0\ETicaret.WebUI.pdb
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\bin\Debug\net5.0\ETicaret.WebUI.Views.dll
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\bin\Debug\net5.0\ETicaret.WebUI.Views.pdb
-C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\ETicaret.WebUI.csproj.AssemblyReference.cache
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\ETicaret.WebUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\ETicaret.WebUI.AssemblyInfoInputs.cache
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\ETicaret.WebUI.AssemblyInfo.cs
