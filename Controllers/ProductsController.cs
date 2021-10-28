@@ -13,12 +13,7 @@ namespace ETicaret.WebUI.Controllers
     {        
         public IActionResult Index()
         {
-            var product = new Product { Name = "Iphone X", Price = 6000, Description = "güzel telefon" };
-
-
-            ViewBag.Category = "Telefonlar";
-            
-            return View(product);
+            return View();
         }
         public IActionResult list(int? id)
         {
