@@ -11,9 +11,9 @@
 
 
     @await Html.PartialAsync("_navbar")
-    <partial name="_header">
+    @RenderSection("Header", false)
 
-        <main class="mb-5">
+        <main class="my-5">
             <div class="container">
 
                 @if (IsSectionDefined("Categories"))

@@ -2,6 +2,7 @@
 using ETicaret.WebUI.Models;
 using ETicaret.WebUI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,6 +39,17 @@ namespace ETicaret.WebUI.Controllers
         public IActionResult Details(int id)
         {
             return View(ProductRepository.GetProductById(id));
+        }
+        public IActionResult Create()
+        {
+            ViewBag.Categories = new SelectList(CategoryRepository.Categories,"CategoryId","Name");
+            return View(new Product());
+        }
+        [HttpPost]
+        public IActionResult Create(Product product)
+        {
+            ProductRepository.AddProduct(product);
+            return RedirectToAction("list");
         }
     }
 }
