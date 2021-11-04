@@ -15,12 +15,16 @@ namespace ETicaret.WebUI.Controllers
         {
             return View();
         }
-        public IActionResult list(int? id)
+        public IActionResult list(int? id,string q)
         {
             var products = ProductRepository.Products;
             if (id!=null)
             {
                 products = products.Where(x => x.CategoryId == id).ToList();
+            }
+            if (!string.IsNullOrEmpty(q))
+            {
+                products = products.Where(x => x.Name.Contains(q) || x.Description.Contains(q)).ToList();
             }
 
             var productViewModel = new ProductViewModel()
