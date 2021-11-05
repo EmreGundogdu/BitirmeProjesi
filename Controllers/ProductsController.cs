@@ -68,5 +68,11 @@ namespace ETicaret.WebUI.Controllers
             ProductRepository.EditProduct(product);
             return RedirectToAction("list");
         }
+        [HttpPost]
+        public IActionResult Delete(int ProductId)
+        {
+            ProductRepository.DeleteProduct(ProductId);
+            return RedirectToAction("List");
+        }
     }
 }

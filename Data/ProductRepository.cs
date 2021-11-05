@@ -42,7 +42,7 @@ namespace ETicaret.WebUI.Data
         {
             foreach (var item in _products)
             {
-                if (item.ProductId== product.ProductId)
+                if (item.ProductId == product.ProductId)
                 {
                     item.Name = product.Name;
                     item.Price = product.Price;
@@ -51,6 +51,14 @@ namespace ETicaret.WebUI.Data
                     item.IsApproved = product.IsApproved;
                     item.CategoryId = product.CategoryId;
                 }
+            }
+        }
+        public static void DeleteProduct(int id)
+        {
+            var product = GetProductById(id);
+            if (product != null)
+            {
+                _products.Remove(product);
             }
         }
     }
