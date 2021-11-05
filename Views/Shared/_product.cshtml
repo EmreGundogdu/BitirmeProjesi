@@ -7,7 +7,7 @@
         <p class="card-text">@Model.Description</p>
         <a asp-action="Details" asp-controller="Products" asp-route-id="@Model.ProductId" class="btn btn-outline-secondary btn-sm">İncele</a>
         <a asp-action="Edit" asp-controller="Products" asp-route-id="@Model.ProductId" class="btn btn-outline-secondary btn-sm">Düzenle</a>
-        <form method="post" asp-action="Delete" asp-controller="Products" style="display:inline;">
+        <form method="post" asp-action="Delete" asp-controller="Products" style="display:inline-block;">
             <input type="hidden" name="ProductId" value="@Model.ProductId"  />
             <button type="submit" class="btn btn-outline-danger btn-sm">Sil</button>
         </form>
