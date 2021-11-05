@@ -48,8 +48,13 @@ namespace ETicaret.WebUI.Controllers
         [HttpPost]
         public IActionResult Create(Product product)
         {
-            ProductRepository.AddProduct(product);
-            return RedirectToAction("list");
+            if (ModelState.IsValid)
+            {
+                ProductRepository.AddProduct(product);
+                return RedirectToAction("list");
+            }
+            return View(product);
+            
         }
         public IActionResult Edit(int id)
         {
