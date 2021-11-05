@@ -53,6 +53,7 @@ namespace ETicaret.WebUI.Controllers
                 ProductRepository.AddProduct(product);
                 return RedirectToAction("list");
             }
+            ViewBag.Categories = new SelectList(CategoryRepository.Categories, "CategoryId", "Name");
             return View(product);
             
         }

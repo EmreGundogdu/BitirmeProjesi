@@ -19,6 +19,7 @@ namespace ETicaret.WebUI.Models
         [Required]
         public string ImageUrl { get; set; }
         public bool IsApproved { get; set; }
-        public int CategoryId { get; set; }
+        [Required]
+        public int? CategoryId { get; set; }
     }
 }
