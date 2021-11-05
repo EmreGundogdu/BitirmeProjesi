@@ -51,5 +51,16 @@ namespace ETicaret.WebUI.Controllers
             ProductRepository.AddProduct(product);
             return RedirectToAction("list");
         }
+        public IActionResult Edit(int id)
+        {
+            ViewBag.Categories = new SelectList(CategoryRepository.Categories, "CategoryId", "Name");
+            return View(ProductRepository.GetProductById(id));
+        }
+        [HttpPost]
+        public IActionResult Edit(Product product)
+        {
+            ProductRepository.EditProduct(product);
+            return RedirectToAction("list");
+        }
     }
 }

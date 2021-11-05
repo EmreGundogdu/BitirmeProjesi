@@ -38,5 +38,20 @@ namespace ETicaret.WebUI.Data
         {
             return _products.FirstOrDefault(x => x.ProductId == id);
         }
+        public static void EditProduct(Product product)
+        {
+            foreach (var item in _products)
+            {
+                if (item.ProductId== product.ProductId)
+                {
+                    item.Name = product.Name;
+                    item.Price = product.Price;
+                    item.ImageUrl = product.ImageUrl;
+                    item.Description = product.Description;
+                    item.IsApproved = product.IsApproved;
+                    item.CategoryId = product.CategoryId;
+                }
+            }
+        }
     }
 }

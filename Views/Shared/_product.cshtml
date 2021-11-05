@@ -5,6 +5,7 @@
     <div class="card-body">
         <h5 class="card-title">@Model.Name</h5>
         <p class="card-text">@Model.Description</p>
-        <a asp-action="Details" asp-controller="Products" asp-route-id="@Model.ProductId" class="btn btn-outline-secondary">İncele</a>
+        <a asp-action="Details" asp-controller="Products" asp-route-id="@Model.ProductId" class="btn btn-outline-secondary btn-sm">İncele</a>
+        <a asp-action="Edit" asp-controller="Products" asp-route-id="@Model.ProductId" class="btn btn-outline-secondary btn-sm">Düzenle</a>
     </div>
 </div>   
