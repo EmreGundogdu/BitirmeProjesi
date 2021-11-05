@@ -11,15 +11,15 @@ using System.Threading.Tasks;
 namespace ETicaret.WebUI.Controllers
 {
     public class ProductsController : Controller
-    {        
+    {
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult list(int? id,string q)
+        public IActionResult list(int? id, string q)
         {
             var products = ProductRepository.Products;
-            if (id!=null)
+            if (id != null)
             {
                 products = products.Where(x => x.CategoryId == id).ToList();
             }
@@ -42,7 +42,7 @@ namespace ETicaret.WebUI.Controllers
         }
         public IActionResult Create()
         {
-            ViewBag.Categories = new SelectList(CategoryRepository.Categories,"CategoryId","Name");
+            ViewBag.Categories = new SelectList(CategoryRepository.Categories, "CategoryId", "Name");
             return View(new Product());
         }
         [HttpPost]

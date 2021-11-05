@@ -13,8 +13,6 @@ namespace ETicaret.WebUI.Controllers
     {
         public IActionResult Index()
         {
-
-
             var productViewModel = new ProductViewModel()
             {
                 Products = ProductRepository.Products
