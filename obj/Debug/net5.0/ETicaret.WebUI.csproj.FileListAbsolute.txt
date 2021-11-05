@@ -55,3 +55,4 @@ C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicare
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_product.cshtml.g.cs
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Products\Create.cshtml.g.cs
 C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\ETicaret.WebUI.csproj.AssemblyReference.cache
+C:\Users\Emre\Desktop\FinalDev\Asp.NET CORE\BitirmeProjesi\ETicaretProje\ETicaret.WebUI\obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs
